@@ -11,3 +11,15 @@ int main()
     printf("result is %d + %d = %d",a,b,result);
     return 0;
 }
+
+// Write a code to read a character and print it back to the user
+
+#include<stdio.h>
+int main()
+{
+    char name;
+    printf("enter the character :");
+    scanf("%c",&name);
+    printf("character : %c",name);
+    return 0;
+}
