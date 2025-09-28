@@ -23,3 +23,15 @@ int main()
     printf("character : %c",name);
     return 0;
 }
+
+// Write a code to read a float and print it with 2 decimals
+
+#include<stdio.h>
+int main()
+{
+    float a;
+    printf("Enter the value :");
+    scanf("%f",&a);
+    printf("Float value is : %.2f",a);
+    return 0;
+}
