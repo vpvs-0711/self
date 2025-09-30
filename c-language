@@ -77,3 +77,68 @@ int main()
 
 6.Write a program to swap two numbers using a temporary variable.
 
+#include <stdio.h>
+
+void main() {
+    int a,b,c;
+    printf("Enter the number of a :");
+    scanf("%d",&a);
+    printf("Enter the number of b : ");
+    scanf("%d",&b);
+    c=a;
+    a=b;
+    b=c;
+    printf("result is \n");
+    printf("a= %d\n",a);
+    printf("b= %d",b);
+    
+}
+
+
+7. Write a program to calculate the simple interest.
+
+#include <stdio.h>
+
+void main() {
+    int p,t,r;
+    float interest;
+    printf("enter the values of p,t,r :");
+    scanf("%d%d%d",&p,&t,&r);
+    interest=p*t*r/100;
+    printf("simple interest is : %f",interest);
+    
+}
+
+
+8.Write a program to convert temperature from Celsius to Fahrenheit.
+
+#include <stdio.h>
+
+void main() {
+    float f,c;
+    printf("enter the value of c :");
+    scanf("%f",&c);
+    f=(c*9/5)+32;
+    printf("the value of celsius in fahrenheit is : %f",f);
+
+}
+
+
+9.Write a program to read a 3-digit number and print the sum of its digits.
+
+#include <stdio.h>
+
+void main() {
+    int number,a,b,c,sum;
+    printf("Enter the three digit number :");
+    scanf("%d",&number);
+    a=number/100;
+    c=number%10;
+    b=(number/10)%10;
+    sum=a+b+c;
+    printf("result is : %d",sum);
+}
+
+
+10.Write a program to check whether a number is even or odd.
+
